@@ -1,0 +1,107 @@
+@media(max-width:580px) {
+    .mainPageImages {
+        flex-direction: column;
+    }
+    .midSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .midSection img {
+        width: 100%;
+    }
+    body {
+        background-position: center;
+    }
+}
+.menu {
+    background-color:rgb(235, 235, 235);
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.option {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+body{
+    background-image: url("/images/background.jpg");
+    background-size: 640px 448px;
+    font-family: 'Montserrat', sans-serif;
+    background-position: center;
+    margin: 0px;
+}
+h3 {
+    background-color: whitesmoke;
+}
+
+.topSection {
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+}
+/*.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    height: 75vh;
+    color:goldenrod;
+    padding-bottom: 30px;
+}
+.mainPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:whitesmoke;
+    padding:30px;
+}
+.mainPageImages {
+    display: flex;
+    justify-content: space-around;
+}
+.mainPageImages img {
+    width: 100%;
+}
+.topSection {
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+}
+.midSection {
+    display:flex;
+}
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.gray {
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+    color: white;
+    padding: 30px;
+
+}
+.white {
+    background-color: whitesmoke;
+    padding: 20px;
+    color: rgb(61,61,61);
+    padding: 30px;
+}
+.imgSection {
+    width: 33%;
+    height: 33%;
+}*/
