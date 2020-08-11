@@ -40,14 +40,24 @@ body{
     background-position: center;
     margin: 0px;
 }
+
 h3 {
     background-color: whitesmoke;
 }
-
 .topSection {
+    margin:auto;
     text-align: center;
+    background-color: white;
+    color:goldenrod;
     font-size: 30px;
-    color: goldenrod;
+    width: 130px;
+}
+.box {
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
 }
 /*.intro {
     display: flex;

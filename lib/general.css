@@ -1,0 +1,35 @@
+.menu {
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: 0px;
+}
+.options {
+    background-color:rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.option {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.gninfo{
+    text-decoration: none;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+body{
+    margin:0px;
+}

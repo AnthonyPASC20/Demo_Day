@@ -1,0 +1,39 @@
+.menu {
+    background-color:rgb(235, 235, 235);
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.option {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.topSection {
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    color:goldenrod;
+    font-size: 30px;
+    width: 250px;
+}
+h3 {
+    background-color: whitesmoke;
+}
+.track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
