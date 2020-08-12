@@ -1,18 +1,18 @@
 .menu {
+    background-color:rgb(235, 235, 235);
     padding-left: 20px;
     padding-right: 30px;
-    margin: 0px;
 }
 .options {
-    background-color:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
     flex-wrap: nowrap;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 .option {
     text-decoration: none;
     color: rgb(61, 61, 61);
@@ -21,7 +21,6 @@
 }
 .gninfo{
     text-decoration: none;
-    background-color: lightgreen;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +28,60 @@
     flex-wrap: nowrap;
     padding-top: 2px;
     padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+}
+.genbox{
+    text-decoration: none;
+    color: goldenrod;
+    background-color: lightgreen;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    font-size: 30px;
+
+}
+.genorbox{
+    text-decoration: none;
+    background-color: limegreen;
+    font-size: 15px;
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+
+}
+.genwashbox{
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+}
+.genmapbox{
+    border-radius: 10px;
+    border: solid;
+    margin-bottom: 10px;
+}
+.genorinfo{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.genwashinfo{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.genmapinfo{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.washyourhands{
+    width: 1080px;
+    height: 720px;
+}
+.genmap{
+    width: 1080px;
+    height: 720px;
 }
 body{
     margin:0px;
+    margin: 0px;
 }

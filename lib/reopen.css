@@ -12,9 +12,40 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .option {
     text-decoration: none;
     color: rgb(61, 61, 61);
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+}
+body {
+    background-image: url("/images/storefront.jpg");
+    margin: 0px;
+}
+
+
+.topSection {
+    margin:auto;
+    text-align: center;
+    color:goldenrod;
+    font-size: 30px;
+    width: 310px;
+}
+.track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.trackAndImg {
+    border: solid;
+    padding: 5px;
+    display: flex;
+    background-color: whitesmoke;
+}
+h3 {
+    background-color: whitesmoke;
+    padding: 5px;
 }

@@ -18,16 +18,16 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
+body{
+    background-image: url("/images/tracking.jpg");
+    margin: 0px;
+}
 .topSection {
     margin:auto;
     text-align: center;
-    background-color: white;
     color:goldenrod;
     font-size: 30px;
     width: 250px;
-}
-h3 {
-    background-color: whitesmoke;
 }
 .track{
     display: flex;
@@ -36,4 +36,14 @@ h3 {
     align-content: center;
     justify-content: center;
 }
-
+#trackImg {
+    width: 700px;
+    height: auto;
+    padding: 10px;
+}
+.trackAndImg {
+    border: solid;
+    padding: 5px;
+    display: flex;
+    background-color: whitesmoke;
+}
