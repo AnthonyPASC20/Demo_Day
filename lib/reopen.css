@@ -40,10 +40,13 @@ body {
     justify-content: center;
 }
 .trackAndImg {
+    margin:auto;
+    display: flex;
+    justify-content: center;
     border: solid;
     padding: 5px;
-    display: flex;
     background-color: whitesmoke;
+    width: 180px;
 }
 h3 {
     background-color: whitesmoke;
